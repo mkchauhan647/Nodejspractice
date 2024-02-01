@@ -1,3 +1,9 @@
+// Enable Two factor authenticator in your google account and create app passwords and 
+// use that created app passwords in pass field of auth below instead of your real password.
+
+
+
+
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
